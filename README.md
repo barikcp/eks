@@ -26,15 +26,11 @@ Step-6: Install Kubectl
 
 
 Step-7: Install eksctl
-> curl --silent --location "https://github.com/weaveworks/eksctl/releases/latest/download/eksctl_$(uname -s)_amd64.tar.gz" | tar xz -C /tmp
-> sudo mv /tmp/eksctl /usr/local/bin
-> eksctl version
 
-        wget https://github.com/k3s-io/k3s/releases/download/v1.23.5%2Bk3s1/k3s        # Download the binary
-        
-       chmod +x k3s ​                                                                 # Give Executable permission  
-             
-       sudo ./k3s agent -s https://10.160.0.4:6443 -t <Code_shown_in_above_step-2>​   # This command will be shown on the screen after K3s installed in step-1
+       curl --silent --location "https://github.com/weaveworks/eksctl/releases/latest/download/eksctl_$(uname -s)_amd64.tar.gz" | tar xz -C /tmp
+       sudo mv /tmp/eksctl /usr/local/bin
+       eksctl version
+       
 
 
 
