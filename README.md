@@ -4,15 +4,15 @@ Step-1: Create an EC2 instance as controller machine.
 Step-2: Connect the EC2 instance from command prompt.
 
 Step-3: Install "awscli"
-> apt update
-> apt install awscli
 
+       apt update
+       apt install awscli
+      
 Step-4: Create access key
 Services -> IAM -> Dashboard -> Manage Access key -> Create New access Key
 
 Step-5: Configure AWS
 > aws configure
-
 
 Step-6: Install Kubectl
 
