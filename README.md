@@ -22,13 +22,6 @@ Step-6: Install Kubectl
 > kubectl version --short --client
 
 
-        wget https://github.com/k3s-io/k3s/releases/download/v1.23.5%2Bk3s1/k3s   # Download the binary
-
-        chmod +x k3s ​                                                            # Give Executable permission  
-
-        sudo ./k3s server​                                                        # Install K3s cluster in Master Node   
-        
-        sudo ./k3s kubectl get nodes -o wide                                      # Check how many nodes got created
         curl -O https://s3.us-west-2.amazonaws.com/amazon-eks/1.23.13/2022-10-31/bin/linux/amd64/kubectl
         openssl sha1 -sha256 kubectl
         chmod +x ./kubectl
