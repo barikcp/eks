@@ -1,0 +1,3 @@
+#configure AWS
+
+aws configure
