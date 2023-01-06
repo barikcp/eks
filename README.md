@@ -1,5 +1,5 @@
 # EKS Cluster
-Step-1: Create an EC2 instance as controller machine.
+Step-1: Create an EC2 instance.
 
 Step-2: Connect EC2 instance from command prompt.
 
