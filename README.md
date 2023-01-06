@@ -12,8 +12,9 @@ Step-4: Create access key
 Services -> IAM -> Dashboard -> Manage Access key -> Create New access Key
 
 Step-5: Configure AWS
-> aws configure
 
+       aws configure
+       
 Step-6: Install Kubectl
 
         curl -O https://s3.us-west-2.amazonaws.com/amazon-eks/1.23.13/2022-10-31/bin/linux/amd64/kubectl
